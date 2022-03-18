@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#date{
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: grey;
+}
+
+#footer{
+    text-align: center;
+    bottom: 10px;
+    position: fixed;
+    width: 100%;
+    font-size: 3rem;
+    color: grey;
+}
+span{
+    color: yellow;
+}
+
+@media screen and (max-width:650px) {
+    #date {
+        font-size: 1rem;
+        margin-right: 2.1rem;
+    }
+    .container{
+        font-size: 3rem;
+        position: absolute;
+        top: 15rem;
+        left: 2rem;
+    }
+    #footer {
+        font-size: .9rem;
+    }
+}
